@@ -10,3 +10,5 @@ Das finden wir nun heraus! :)
 Das Projekt teilt sich in zwei Schritte auf:
 1. **Audio-Analyse:** Untersuchung der Schussgeräusche im Zeit- und Frequenzbereich (FFT).
 2. **Klassifikation:** Automatisierte Erkennung unbekannter Schüsse anhand der extrahierten Merkmale (kommt noch).
+
+## Teil 1: Audio-Analyse (Zeit- & Frequenzbereich)
