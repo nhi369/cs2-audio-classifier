@@ -12,3 +12,8 @@ Das Projekt teilt sich in zwei Schritte auf:
 2. **Klassifikation:** Automatisierte Erkennung unbekannter Schüsse anhand der extrahierten Merkmale (kommt noch).
 
 ## Teil 1: Audio-Analyse (Zeit- & Frequenzbereich)
+**Zeitbereich x(t)**: Zeigt den Schalldruckverlauf über die Zeitachse. Hier sieht man, wie hart der Schuss einschlägt und wie lange der Schall im Raum nachhallt.
+**Frequenzbereich mit FFT**: Zerlegt den Sound in Bestandteile von Bass (0 Hz) bis zu den Höhen (4000 Hz). Die Peaks im Plot markieren die dominanten Töne der Waffe.
+
+- *AK-47* (f_max = 127 Hz): Der ungedämpfte Schuss startet mit einer hoher Anfangsamplitude und verteilt seine Energie breit über den Bereich bis 1000 Hz. Die kleinen Anstiege im mittleren Bereich (2000 - 3000 Hz) tragen dazu bei, dass die Waffe einen aggresiven metallisch scheppernden Sound hat.
+- *M4A1-S* ( f_max = 76 Hz): Auffälig ist bei diesem Sturmgewehr die extrem kurze Signaldauer
