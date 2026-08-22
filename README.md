@@ -21,4 +21,4 @@ Das Projekt teilt sich in zwei Schritte auf:
 
 - *AK-47* (Peak = 127 Hz): Der ungedämpfte Schuss startet mit einer hoher Anfangsamplitude und verteilt seine Energie breit über den Bereich bis 1000 Hz. Die kleinen Anstiege im mittleren Bereich (2000 - 3000 Hz) tragen dazu bei, dass die Waffe einen aggresiven metallisch scheppernden Sound hat.
 - *M4A1-S* (Peak = 76 Hz): Auffälig ist bei diesem Sturmgewehr die extrem kurze Signaldauer. Im Zeitbereich ist nach knapp 0,3s das Signal abgeklungen
-  (plot/Figure_1_ak47_m4a1s.png)
+  (plots/audio_analyser/Figure_1_ak47_m4a1s.png)
